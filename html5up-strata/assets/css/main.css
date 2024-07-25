@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+.fixed-size {
+	width: 500px;
+	height: 350px; 
+	object-fit: cover; /* Ensures the image covers the set width and height */
+    }
+
 /* Basic */
 
 	html {
